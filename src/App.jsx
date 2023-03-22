@@ -1,9 +1,11 @@
 import React from "react";
+
+import UserDetails from "./components/Userdetail";
 import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <>
-      <Userdetail />
+      <UserDetails />
       <Navbar />
     </>
   );
